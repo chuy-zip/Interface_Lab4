@@ -13,17 +13,19 @@ public interface ICarC {
 	public boolean SwitchRadioONOFF();
 	
 	/**
-	 * Getting the current status of the radio ON = true
+	 * Obtener el estatus de la radio encendido/apagado
 	 * @return status of the radio
 	 */
 	public boolean getRadioStatus();
 	
 	/**
+	 * El volumen que sube o disminuye de 1 en 1
 	 * @return Obtener el valor actual del volumen
 	 */
 	public int getVolume();
 	
 	/**
+	 * El volumen que sube o disminuye de 1 en 1
 	 * @param Volume El volumen actual
 	 */
 	public void setVolume(int Volume);
