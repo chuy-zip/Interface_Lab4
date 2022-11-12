@@ -41,9 +41,9 @@ public interface ICarC {
 	
 	/**
 	 * Cambiar la estacion actual de la radio (Solo debe de cambiarse de 0.5 en 0.5)
-	 * @param Volume Regresa el volumen actual
+	 * @param stationChange el valor por el cual se va a cambiar la varible de la raio (0.5 o -0.5)
 	 */
-	public void setStation(float Volume);
+	public void setStation(float stationChange);
 	
 	/**
 	 * Obtener el valor actual de la radio
