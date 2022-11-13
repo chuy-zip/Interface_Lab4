@@ -23,5 +23,5 @@ public interface ISong {
 	
 	public void setGenre(String _genre);
 	
-	public String getID();
+	public String getGenre();
 }
