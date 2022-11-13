@@ -85,7 +85,7 @@ public interface ICarC {
 	 * 1(Reproduccion de CD) 2(Reproduccion de MP3) 3 (Reproduccion de Spotify)
 	 * @return Numero que representa el tipo de reproductor
 	 */
-	public void setAudioRepType();
+	public void setAudioRepType(int repType);
 	
 	/**
 	 * Metodo que se encarga de obtener una de las listas de canciones pre definidas
