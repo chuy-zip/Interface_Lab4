@@ -36,8 +36,16 @@ public interface ICarC {
 	 * si es falso es AM
 	 * @return el valor cambiado de la frecuencia
 	 */
+	public boolean SwitchFrequency();
 	
-	public float SwitchFrequency(float frequency);
+	
+	/**
+	 * Metodo para obtener el tipo frecuencia de FM a AM
+	 Si este es verdadero significa que es FM, si es falso es AM
+	 * @return el valor de la frecuencia
+	 */
+	public boolean getFrequency();
+	
 	
 	/**
 	 * Cambiar la estacion actual de la radio (Solo debe de cambiarse de 0.5 en 0.5)
